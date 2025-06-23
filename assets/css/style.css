@@ -1,0 +1,194 @@
+/* Configuración del header */
+.navbar {
+    background-color: #373A3C !important;
+    padding: 0;
+  }
+  
+  header .navbar a {
+    color: white;
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+  
+  }
+  
+  header .navbar a:hover {
+    color: rgb(225, 236, 125);
+  }
+  
+  #fuente-logo {
+    font-family: "Lobster", sans-serif !important;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+  }
+  
+  /*Configuración de article */
+  .titulo-plato {
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    color: #373A3C;
+    border-bottom: 0.1rem solid black;
+  }
+  
+  article h5 {
+    margin: 1rem 0 0 0;
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    color: #373A3C;
+  }
+  
+  .carruzzel img {
+    width: 15rem;
+  }
+  
+  .botones {
+    display: flex; 
+    justify-content:left; /* Alinea horizontalmente */
+    align-items: center; /* alinea verticalmente */
+  }
+  
+  /* Sección Ingredientes y prepración */
+  .ingredientes {
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    color: #373A3C;
+  
+  }
+  .ingredientes li {
+    list-style-type: none;
+  }
+  
+  .linea-2 {
+      margin: 3rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 0.1rem solid black;
+      width: 9rem;
+    }
+  
+    .ol-padding li {
+      padding-bottom: 1.5rem;
+    } 
+  
+    hr {
+      opacity: 100;
+    }
+  
+    /* Seción recetas relacionadas */
+    .secc-relacc .card-title, .card-text {
+      color: #373A3C;
+    }
+  
+    .secc-relacc .card-title {
+      font-family: "Cabin", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 700;
+      font-style: normal;
+      font-variation-settings: "wdth" 100;
+    }
+  
+    .card-text {
+      color: #373A3C;
+      font-family: "Cabin", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+      font-variation-settings: "wdth" 100;
+    }
+  
+  
+    /*Sección Newsletter */
+    .secc-newsletter {
+      background-color: #DC3545;
+      color: #fff;
+      font-family: "Cabin", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+      font-variation-settings: "wdth" 100;
+  
+    }
+  
+    .secc-newsletter h2, h4 {
+      text-align: center;
+    }
+    .secc-newsletter h2 {
+      padding-top: 8rem;
+      }
+    .text-logo {
+      font-family: "Lobster", sans-serif !important;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 1.6rem;
+    }
+  
+    .boton_newsletter {
+      display: flex; 
+      justify-content:center; 
+      align-items: center; 
+    }
+    .boton_newsletter .btn {
+      background-color: #DC3545 !important;
+      padding: 0.5rem 5rem;
+    }
+    .btn-outline-secondary {
+      border-color: #fff;
+    }
+  
+    /* Sección Footer con logo */
+    footer {
+      background-color: #373A3C;
+      color: #fff;
+    }
+  
+    footer p {
+      font-family: "Lobster", sans-serif !important;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 2rem;
+    }
+  
+    /* Medias Queries */
+  
+    /* Se aplica de 1024 hacia abajo */
+    @media (max-width: 1024px) {
+      .carruzzel img {
+        width: 13.5rem;
+      }
+    }
+  
+    /* Se aplica de 768 hacia abajo */
+    @media (max-width: 768px) {
+      .carruzzel img {
+        width: 10rem;
+      }
+    }
+  
+    /* Se aplica de 991 hacia abajo */
+    @media (max-width: 991px) {
+      .carruzzel img {
+        width: 10rem;
+      }
+    }
+  
+      /* Se aplica de  hacia abajo */
+      @media (max-width: 576px) {
+        h1 {
+          text-align: center;
+          font-size: 2.5rem;
+        }
+        .min {
+          text-align: center;
+        }
+      }
